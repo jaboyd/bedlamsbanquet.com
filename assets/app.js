@@ -1,0 +1,1 @@
+"use strict";var emailButtons;emailButtons=document.querySelectorAll("a.email");Array.prototype.forEach.call(emailButtons,function(t,e){return t.addEventListener("click",function(){return basicModal.show({body:'<p class="center">boyd@bedlamsbanquet.com</p>',closable:true,buttons:{action:{title:"Close",fn:basicModal.close}}})})});
